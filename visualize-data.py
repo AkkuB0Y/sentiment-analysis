@@ -2,7 +2,7 @@ import json
 import matplotlib.pyplot as plt
 
 # Load the processed sentiment data from the JSON file
-with open('sentiment_results.json', 'r') as f:
+with open('sentiment-results/sentiment_results_1.json', 'r') as f:
     sentiment_data = json.load(f)
 
 # Initialize lists to hold the sentiment scores

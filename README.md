@@ -4,4 +4,5 @@ Python program to analyze sentiments of scraped JSON files (from Apify scrapers)
 
 # Currently scraping: 
 
-> Sentiments about co-op on the r/uwaterloo subreddit!
+> Sentiments about co-op on the r/uwaterloo subreddit
+> Sentiments about the job market in Toronto (r/torontoJobs)    
