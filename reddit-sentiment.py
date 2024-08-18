@@ -3,7 +3,7 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification
 from scipy.special import softmax
 
 # load JSON data from file
-with open('scraped-datasets/dataset_reddit-api-scraper_2024-08-04_04-24-15-352.json', 'r') as f:
+with open('scraped-datasets/dataset_reddit-api-scraper-task_2024-08-18_21-56-58-696.json', 'r') as f:
     data = json.load(f)
 
 # the actual model from huggingface!
@@ -38,5 +38,5 @@ for item in data:
         results.append(sentiment_scores)
 
 # Optionally save the results to a new JSON file
-with open('sentiment_results.json', 'w') as f:
+with open('sentiment-results/sentiment_results_1.json', 'w') as f:
     json.dump(results, f, indent=4)
